@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=GameOfLife
+comment0.text=\n\ The\ is\ the\ core\ of\ Conway's\ Game\ of\ Life.\ It\ is\ reportred\n\ to\ be\ the\ most-commonly\ implemented\ "game"\ in\ computer\ science.\n\ It\ is\ not\ a\ gmae\ in\ the\ sense\ of\ "winners"\ and\ "loser".\ \n\ Instead,\ it\ can\ be\ described\ as\ a\ cullular\ automaton.\ That\ is,\n\ it\ consists\ of\ group\ of\ cells\ which\ each\ act\ based\ on\ their\n\ individual\ state,\ which\ includes\ the\ local\ environment,\ in\ this\n\ case.\n
+comment1.params=row\ col
+comment1.target=int\ getCellState(int,\ int)
+comment1.text=\n\ Gets\ the\ current\ state\ of\ a\ given\ sell.\n\ @param\ row\ The\ row\ number\ of\ the\ given\ cell,\ 1\ -\ 19\n\ @param\ col\ The\ column\ number\ of\ the\ given\ cell,\ 1\ -\ 19\n\ @return\ The\ current\ state\ of\ the\ given\ cell\n
+comment2.params=row\ col\ state
+comment2.target=void\ setCellState(int,\ int,\ int)
+comment2.text=\n\ Sets\ the\ state\ of\ the\ given\ sell\ to\ the\ given\ state\n\ value.\n\ @param\ row\ The\ row\ number\ of\ the\ given\ cell,\ 1\ -\ 19\n\ @param\ col\ The\ column\ number\ of\ the\ given\ cell,\ 1\ -\ 19\n\ @param\ state\ The\ new\ state\ for\ the\ given\ cell.\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\n\ Creates\ an\ ASCII\ representation\ of\ the\ current\ board\n\ state.\n
+comment4.params=
+comment4.target=void\ nextGeneration()
+comment4.text=\n\ Calcuates\ the\ state\ of\ the\ Game\ of\ Life\ booard\ for\ the\n\ next\ generation\ and\ updates\ the\ board\ state.\n\ <i>Implementation\ note\:\ This\ method\ does\ not\ instantiate\n\ any\ new\ array\ objects.</i>\n
+numComments=5

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TestAdaptiveImplementation
+comment0.text=\n\ This\ is\ the\ sample\ test\ program\ for\ the\ initial\ Game\ of\ Life\n\ implementation.\ It\ is\ set\ up\ to\ test\ on\ a\ 8x8\ checker\ board\ or\n\ a\ Go\ board\ with\ the\ origin\ at\ the\ center.\n
+comment1.params=board
+comment1.target=void\ setBoard(csc143.gol.GameOfLife)
+comment1.text=\n\ Set\ the\ initial\ pattern\ of\ ALIVE\ cells\n\ @param\ board\ The\ GameOfLife\ board\ to\ update\n
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment2.text=\n\ The\ driver\ for\ this\ test\ case\n\ @param\ args\ The\ command-line\ arguments\n
+numComments=3

@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=MyGameOfLife
+comment0.text=\n\ MyGameOfLife\ implements\ GameOfLife\n\n\ @author\ Jessica\ Walters\n\ @version\ Programming\ Assignment\ 1\:\ Life,\ Next\ Generation\ |\ Challenge\ Level\n
+comment1.params=
+comment1.target=MyGameOfLife()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ MyGameOfLife\n
+comment2.params=row\ col
+comment2.target=int\ getCellState(int,\ int)
+comment2.text=\n\ Gets\ the\ current\ state\ of\ a\ given\ sell.\n\ @param\ row\ The\ row\ number\ of\ the\ given\ cell,\ 1\ -\ 19\n\ @param\ col\ The\ column\ number\ of\ the\ given\ cell,\ 1\ -\ 19\n\ @return\ The\ current\ state\ of\ the\ given\ cell\n
+comment3.params=row\ col\ state
+comment3.target=void\ setCellState(int,\ int,\ int)
+comment3.text=\n\ Sets\ the\ state\ of\ the\ given\ sell\ to\ the\ given\ state\n\ value.\n\ @param\ row\ The\ row\ number\ of\ the\ given\ cell,\ 1\ -\ 19\n\ @param\ col\ The\ column\ number\ of\ the\ given\ cell,\ 1\ -\ 19\n\ @param\ state\ The\ new\ state\ for\ the\ given\ cell.\n
+comment4.params=row\ col
+comment4.target=boolean\ doesCellExist(int,\ int)
+comment4.text=\n\ Checks\ to\ see\ if\ a\ neighboring\ cell\ actually\ exists\n\ \n\ @param\ row\ The\ row\ number\ of\ the\ given\ cell,\ 0\ -\ 18\n\ @param\ col\ The\ column\ number\ of\ the\ given\ cell,\ 0\ -\ 18\n\ @return\ true\ if\ the\ neighbor\ exists\ and\ false\ if\ it\ doesn't\n
+comment5.params=row\ col
+comment5.target=int\ aliveNeighbors(int,\ int)
+comment5.text=\n\ Finds\ the\ number\ of\ alive\ neighbors\ to\ a\ given\ cell\n\ \n\ @param\ row\ The\ row\ number\ of\ the\ given\ cell,\ 0\ -\ 18\n\ @param\ col\ The\ column\ number\ of\ the\ given\ cell,\ 0\ -\ 18\n\ @return\ the\ number\ of\ alive\ neighbors\ the\ current\ cell\ has\n
+comment6.params=
+comment6.target=void\ nextGeneration()
+comment6.text=\n\ this\ method\ creates\ the\ next\ iteration\ of\ the\ board\ according\ to\ the\ rules\n\ of\ GameOfLife\n\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\n\ returns\ the\ GameOfLife\ Board\ represented\ as\ a\ series\ of\ "."\ and\ "O"\n\n\ @param\ \ \n\ @return\ the\ GameOfLife\ Board\ represented\ as\ a\ series\ of\ "."s\ and\ "O"s.\n
+numComments=8

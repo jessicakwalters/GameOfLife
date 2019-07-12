@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=GameOfLifeBoard
+comment0.text=\n\ Creates\ a\ GUI\ for\ My\ Game\ of\ Life\n\n\ @author\ Jessica\ Walters\n\ @version\ PA2\:\ Game\ of\ Life,\ Graphical\ Interface\ |\ Standard\ level\n
+comment1.params=game
+comment1.target=GameOfLifeBoard(GameOfLife)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ GameOfLifeBoard\n
+comment2.params=
+comment2.target=void\ drawBoard()
+comment2.text=\n\ Draws\ the\ game\ of\ life\ board\ according\ to\ cell\ state\n\ \n\ @param\n\ @return\n
+comment3.params=board
+comment3.target=void\ setBoard(GameOfLife)
+comment3.text=\n\ Sets\ values\ in\ a\ GameOfLifeBoard\n\ @param\ board\ a\ GameOfLifeBoard,\ must\ be\ 17\ by\ 17\ or\ larger\n\ @return\ \n
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+comment4.text=\n\ main\ method\ to\ kick\ off\ the\ application\ and\ create\ the\ GUI\n\ \n\ @param\ args\ The\ command-line\ arguments,ignored\n
+comment5.params=e
+comment5.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment6.params=e
+comment6.target=void\ actionPerformed(java.awt.event.ActionEvent)
+numComments=7

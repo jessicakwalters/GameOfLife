@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TestGameOfLife
+comment0.text=\n\ Testcsc143.gol.GameOfLife\ creates\ an\ example\ board\ for\ csc143.gol.GameOfLife\n\n\ @author\ Updated\ By\:\ Jessica\ Walters\ \n\ @version\ Programming\ Assignment\ 1\:\ Life,\ Next\ Generation\ |\ Challenge\ Level\n
+comment1.params=board
+comment1.target=void\ setBoard(csc143.gol.GameOfLife)
+comment1.text=\n\ Sets\ values\ in\ a\ csc143.gol.GameOfLifeBoard\n\ @param\ board,\ a\ csc143.gol.GameOfLifeBoard,\ must\ be\ 17\ by\ 17\ or\ larger\n\ @return\ \n
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment2.text=\n\ Main\ method\ which\ triggers\ the\ creation\ and\ value\ population\ of\ a\ csc143.gol.GameOfLife\ board.and\ prints\ the\ boards\ to\ the\ terminal\ window\n\ @param\ args\ an\ array\ of\ strings,\ though\ the\ program\ doesn't\ "do"\ anything\ with\ these\ parameters\n\ @return\ \n
+numComments=3
