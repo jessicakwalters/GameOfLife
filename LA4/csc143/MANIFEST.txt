@@ -1,4 +1,0 @@
-Main-Class: csc143.test.gol.TestAdaptiveImplementation
-
-
-
