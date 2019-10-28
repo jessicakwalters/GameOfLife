@@ -6,7 +6,7 @@ The board is 19x19 and accepts clicks to initalize live cells.  The animation sp
 
 To run:
 
-`$ git clone`
+`$ git clone git@github.com:jessicakwalters/GameOfLife.git`
 
 `$ cd GameOfLife`
 
